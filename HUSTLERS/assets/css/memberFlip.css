@@ -1,0 +1,43 @@
+.outerContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px; /* Anpassen nach Bedarf */
+}
+
+.cardMember {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 800px; /* Maximalbreite des Containers */
+  margin-bottom: 20px; /* Abstand zwischen den Abschnitten */
+  border: 2px solid #fc6701;
+  border-radius: 40px;
+  background-color: #1e1e1e;
+  height: 315px;
+}
+
+.cardMember img {
+  width: 198px;
+  margin-left: -2px;
+  height: 315px;
+  border-radius: 2px;
+}
+
+.memberText {
+  flex: 1;
+  padding: 20px; /* Abstand zwischen Text und Bild */
+}
+
+.memberTextHeader {
+  font-family: "Permanent Marker", cursive;
+  color: #fc6701;
+  text-shadow: .1em .1em #080808;
+  font-size: xx-large;
+}
+
+.memberTextText {
+  color: white;
+  font-size: 16px; /* Anpassen nach Bedarf */
+}
